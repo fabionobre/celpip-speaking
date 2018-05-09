@@ -1,0 +1,75 @@
+body {
+    font-family: Arial;
+}
+
+.header {
+    background-color: #f0f0f0;
+    padding: .5em;
+    font-size: .9em;
+    color: #5f6568;
+    height: 1.25em;
+}
+
+.headerLeft {
+    float: left;
+}
+
+.headerRight {
+    float: right;
+}
+
+.questionBox {
+    padding: 1em;
+    width: 100%;
+    border-bottom: 1px solid #f0f0f0;
+    color: #ed3833;
+    font-size: 1.35em;
+}
+
+.questionIcon {
+    background-color: #3388b0;
+    border-radius: 1.5em;
+    float: left;
+    color: #FFF;
+    width: 1.4em;
+    height: 1.25em;
+    text-align: center;
+    font-size: .7em;
+    margin: .1em 1em .1em 0;
+    padding: .25em;
+}
+
+.recordingBox {
+    background-color: #dbe0e5;
+    width: 350px;
+    padding: 15px;
+    border-radius: 15px;
+    height: 70px;
+    text-align: center;
+    margin: 5em auto;
+}
+
+.recordingIcon {
+    background-color: #f0f0f0;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 2.5em;
+    text-align: center;
+    color: #b2b2b2;
+    float: left;
+}
+
+.recordingProgress {
+    background-color: #f0f0f0;
+    height: 18px;
+    margin-left: 90px;
+    margin-top: 15px;
+}
+
+.progressBar {
+    background-color: #5cdcfa;
+    width: 0%;
+    height: 18px;
+}
