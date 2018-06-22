@@ -11,13 +11,13 @@
 <body>
 
     <div class="header">
-        <div class="headerLeft">Practice Test</div>
+        <div class="headerLeft"></div>
         <div class="headerRight">
             Preparation: <b id="preparationTime"></b>
             Recording: <b id="recordingTime"></b>
         </div>
     </div>
-
+<!--
     <div class="questionBox">
         <div class="questionIcon">
             <i class="fas fa-exclamation"></i>
@@ -26,14 +26,34 @@
             You can see the question here
         </div>
     </div>
-
+ -->
     <div class="recordingBox">
         <div class="recordingIcon">
             <i class="fas fa-microphone"></i>
         </div>
-        <div class="recordingText"></div>
+        <div class="recordingText">Waiting</div>
         <div class="recordingProgress">
             <div class="progressBar"></div>
+        </div>
+    </div>
+
+    <div class="buttonsBox">
+        <button id="startBnt">Start / Skip / Restart</button>
+        <button id="stopBnt">Stop</button>
+    </div>
+
+    <div class="changeBox">
+        <div>
+            <label>Preparation Time</label>
+            <input type="text" id="inputPreparationTime" />
+        </div>
+        <div>
+            <label>Recording Time</label>
+            <input type="text" id="inputRecordingTime" />
+        </div>
+        <div>
+            <label>&nbsp;</label>
+            <button id="updateBnt">Update times</button>
         </div>
     </div>
 
